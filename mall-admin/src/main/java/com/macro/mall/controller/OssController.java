@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 public class OssController {
     @Autowired
     private OssService ossService;
-
+//git提交测试
     @ApiOperation(value = "Oss上传签名生成")
     @RequestMapping(value = "/policy", method = RequestMethod.GET)
     @ResponseBody
